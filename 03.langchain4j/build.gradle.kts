@@ -19,6 +19,7 @@ dependencies {
     implementation("dev.langchain4j:langchain4j-open-ai:${langchain4jVersion}")
 
     implementation("ch.qos.logback:logback-classic:1.6.6")
+    implementation("io.github.cdimascio:dotenv-java:3.0.2")
 
 }
 
