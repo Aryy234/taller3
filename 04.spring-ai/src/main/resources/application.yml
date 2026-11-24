@@ -1,0 +1,9 @@
+server:
+  port: 8090
+
+spring:
+  ai:
+    openai: ${OPEN_AI_KEY}
+    base-url: https://api.openai.com/v1
+    chat:
+        model: qwen/qwen3.8-27b
