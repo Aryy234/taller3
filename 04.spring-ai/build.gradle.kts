@@ -17,10 +17,18 @@ repositories {
     mavenCentral()
 }
 
+extra["springAiVersion"] = "2.1.0"
+
 dependencies {
     implementation("org.springframework.ai:spring-ai-starter-model-openai")
     implementation("org.springframework.boot:spring-boot-starter-webmvc")
 
+}
+
+dependencyManagement {
+    imports {
+        mavenBom("org.springframework.ai:spring-ai-bom:${property("springAiVersion")}")
+    }
 }
 
 tasks.withType<Test> {
