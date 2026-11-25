@@ -1,0 +1,15 @@
+server:
+  port: 8090
+
+spring:
+  ai:
+    openai:
+      api-key: local-key
+      base-url: http://localhost:8080/v1
+      chat:
+        options:
+          model: modelos/gemma-4-E2B-it-Q4_K_M.gguf
+
+loggin:
+  level:
+      org.springframework.ai.chat.client.advisor.SimpleLoggerAdvisor: DEBUG

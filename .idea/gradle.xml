@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/01.tokenizer" />
             <option value="$PROJECT_DIR$/03.langchain4j" />
             <option value="$PROJECT_DIR$/04.spring-ai" />
+            <option value="$PROJECT_DIR$/05.spring-prompt" />
           </set>
         </option>
         <option name="myGradleHome" value="" />

@@ -1,0 +1,1 @@
+La pregunta es: {pregunta}
